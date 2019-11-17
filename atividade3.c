@@ -170,6 +170,7 @@ int atualizaMontante(){ //Atualiza montante de um cliente especifico, mostra a l
         }else
         {
             
+            cod--;
             system("clear");
             printf("Cód.: %i\n", i + 1);
             printf("Nome: %s\n", cadastro[cod].nome);
